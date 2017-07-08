@@ -1,6 +1,8 @@
 # Denoising
 Monte Carlo based photorealistic rendering method
     蒙特卡罗（Monte Carlo）光线追踪方法是进行图像渲染的一种重要方法，
+    
+    
  而其基于光线追踪的方式使得采样后的图片或多或少会有噪声，在低采样率的图片中这种噪声更加明显，
  甚至会使人无法分辨图片中的事物。近年来，为使用低采样率以获得最高渲染速度，对图像的降噪处理成为了一个热门话题。
  滤除MC噪声的最成功方法是基于特征值的过滤器（例如：cross-bilateral过滤器和 non-local means过滤器）。
